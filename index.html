@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UAE Telecom reponsive website build using HTML5, CSS3 and Javascript. The complete layout of the page is build using grid layout and flexbox with some cool animations"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="font/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <title>UAE Telecom Informational and Blogging website </title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <div class="logo">UAE Telecom</div>
+          <img
+            src="img/nav-icon.svg"
+            class="nav-icon"
+            alt="navigation icon"
+            width="30"
+            height="30"
+          />
+          <ul>
+            <li>
+              <a href="#home"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#tours"> Products </a>
+            </li>
+            <li>
+              <a href="#offers"> Offers </a>
+            </li>
+            <li>
+              <button class="btn">Buy Now</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="heading heading--1 margin-bottom">
+              Data Speed to make your life easy!
+            </h1>
+            <button class="btn">Use our Network</button>
+          </div>
+        </div>
+        <img src="./img/Etisalat.jpeg" alt="why etisalat?" style = "margin-top:55%;margin-left:50%;width:800px;height:250px;">
+      </section>
+
+      <!-- SECTION SEARCH -->
+      <section class="section-search">
+        <div class="container search-box">
+          <div class="wrapper">
+            <h3>Search plans for</h3>
+            <div class="custom-select">
+              <select>
+                <option value="england">Mobile</option>
+                <option value="france">Wifi 4G</option>
+                <option value="italy">Wifi 5G</option>
+                <option value="india">TV</option>
+                <option value="india">Other</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Date</h3>
+            <div class="custom-date">
+              <input type="date" id="date" />
+              <img src="./img/calendar.svg" alt="" class="calender-icon" />
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Average Price</h3>
+            <div class="custom-select">
+              <select>
+                <option value="$200">$200 - $500</option>
+                <option value="$500">$500 - $1000</option>
+                <option value="$1000">$1000 - $2000</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+          <button class="btn">Search</button>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="container about-box" data-aos="fade-up">
+          <div class="about-box__heading">
+            <h3 class="color-blue margin-bottom">About us</h3>
+            <div class="heading heading--1 capitalize">
+              Explore about VIRGIN mobile  with us
+            </div>
+          </div>
+          <div class="about-box__content">
+            <p class="margin-bottom">
+              Virgin Mobile is a wireless communications brand used by seven independent brand-licensees worldwide. Virgin Mobile branded wireless communications services are available in Colombia, the United Kingdom, Ireland, Canada, Chile, Russia, Kuwait, Saudi Arabia, United Arab Emirates, Poland, South Africa, and Mexico. Virgin Mobile branded services used to be offered in Australia, France, Singapore, India, Qatar and the United States.
+            </p>
+            <button class="btn btn--secondary"> <a href="https://en.wikipedia.org/wiki/Virgin_Mobile" style = "text-decoration: none;">Read More</a></button>
+          </div>
+        </div>
+
+        
+        <section class="section-about" id="about">
+          <div class="container about-box" data-aos="fade-up">
+            <div class="about-box__heading"><div class="heading heading--1 capitalize">
+          Why to choose ETISALAT?
+        </div>
+        <div class="about-box__content" style="margin-top:10px">
+          <p class="margin-bottom">
+            Etisalat is one of the Internet hubs in the Middle East (AS8966), providing connectivity to other telecommunications operators in the region. It is also the largest carrier of international voice traffic in the Middle East and Africa and the 12th largest voice carrier in the world. As of October 2008, Etisalat has 510 roaming agreements covering 186 countries and enabling BlackBerry, 3G, GPRS and voice roaming. Etisalat operates Points of Presence (PoP) in New York, London, Amsterdam, Frankfurt, Paris and Singapore. In December 2011 Etisalat announced the commercial launch of Etisalat 4G LTE Network. In May 2018 Etisalat announced the commercial launch of Etisalat 5G LTE Network, becoming the first telecom operator in the Middle East and North Africa (MENA) region to do so.
+          </p>
+          <button class="btn btn--secondary"><a href="https://en.wikipedia.org/wiki/Etisalat" style = "text-decoration: none;">Read More</a></button>
+        </div>
+      </div>
+      </section>
+
+      <!-- SECTION TOURS -->
+      <section class="section-tours" id="tours">
+        <div class="container tour-box" data-aos="fade-up">
+          <header class="tour-box__heading">
+            <h2 class="heading heading--2 color-blue margin-bottom">
+              Our Partnership & Products
+            </h2>
+            <p>
+              Emirates Integrated Telecommunications Company, commercially
+              rebranded as du in February 2007, is one of the two main telecom
+              operators in the United Arab Emirates. du offers fixed line,
+              mobile telephony, internet and digital television services across
+              the UAE. It also provides carrier services, a data hub, internet
+              exchange facilities and satellite service for broadcasters.
+              It expanded its services in support of economic and social
+              transformation of UAE and operates subsidiaries such as EITC
+              Investment Holdings Limited, Edara (Telco Operations FZ-LLC),
+              Smart Dubai Platform Project Company LLC and EITC Singapore PTE.
+              LTD
+            </p>
+          </header>
+
+          <article class="tour-box__cards">
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/fastinternet.jpg"
+                alt="england"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Fast Internet</h3>
+                  <p class="price">$500</p>
+                </div>
+
+                <div class="t-card__description">
+                  One among world's fastest Internet Provider.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 1 year</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/freecall.jpg"
+                alt="france"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Free Calling</h3>
+                  <p class="price">$500</p>
+                </div>
+
+                <div class="t-card__description">
+                 Provides free calling for all international calls for a year.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 1 year</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/unlimiteddata.jpg"
+                alt="ITALY"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Unlimited Data</h3>
+                  <p class="price">$500</p>
+                </div>
+
+                <div class="t-card__description">
+                  Data upto 1500GB for 6 months which is almost unlimited.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 6 months</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/lifeinsurance.jpg"
+                alt="india"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Life Insurance</h3>
+                  <p class="price">$500</p>
+                </div>
+
+                <div class="t-card__description">
+                 Insurance provider .
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 4 months</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/smartliving.jpg"
+                alt="spain"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Smart Living</h3>
+                  <p class="price">$400</p>
+                </div>
+
+                <div class="t-card__description">
+                  Connecting home appliances with the help of IOT and our internet bandwidth.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 6 months</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.7k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/homewifi.jpg"
+                alt="maldives"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">Home wireless 4G/5G</h3>
+                  <p class="price">$300</p>
+                </div>
+
+                <div class="t-card__description">
+                  Wireless wifi connection of 4g/5g for homes.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">For 8 months</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offers">
+        <div class="container offer-box">
+          <div class="offer-box__percentage" data-aos="zoom-in">50%</div>
+          <div class="offer-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              Special Offer this month on our premium plans of mobile and home-wifi
+            </h2>
+            <p>
+              Providing a discount of 50% on our premium plans of mobile and home-wifi when bought together. So hurry up and dont miss the deal.
+            </p>
+            <button class="btn">book Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review">
+        <div class="container review-box" data-aos="fade-up">
+          <header class="review-header">
+            <h3 class="color-blue">Our Reviews</h3>
+            <h2 class="heading heading--2">What the people say about us</h2>
+          </header>
+
+          <article class="review-cards">
+            <div class="r-card">
+              <img
+                src="img/user-1.jpg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">ZOE</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+               Been its regular customer since last 3 years. Dont have a single reason to give up on my trust over them.
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+
+            <div class="r-card">
+              <img
+                src="img/user-2.jpg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">ROSY</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+                Needed high speed data at cheaper rates. Then i got this and now I am enjoying surfing Internet all the time.
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION FOOTER -->
+    <footer class="section-footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="heading heading--2 margin-bottom">UAE TELE</h2>
+          <ul class="contact-data">
+            <li class="location">Dubai,UAE</li>
+            <li class="phone">+00 000 000 00</li>
+            <li class="email">Virginetisalat@abc.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tours">Why US?</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#">Bookk NOW</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Large base of  Customers from</div>
+          <ul>
+            <li><a href="#tours">Italy</a></li>
+            <li><a href="#tours">England</a></li>
+            <li><a href="#tours">India</a></li>
+            <li><a href="#tours">Spain</a></li>
+            <li><a href="#tours">Maldives</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            Mail us your query!
+          </div>
+          <form class="newsletter__input">
+            <input type="text" placeholder="Virginetisalat@abc.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+        <div class="legel">
+          <p class="text">Copyright &copy; by Kumar Pratik&nbsp;</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    
+  </body>
+</html>
